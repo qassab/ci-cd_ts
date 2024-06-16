@@ -28,11 +28,11 @@ images: # Display the image in the build results - Build Artifacts
 - $_SERVICE_IMAGE
 
 substitutions:
-    _SERVICE_IMAGE    : europe-west3-docker.pkg.dev/${PROJECT_ID}/${_DOCKER_REGISTRY}/${_DOCKER_IMAGENAME}:${SHORT_SHA}
-    _SERVICE_REGION   : europe-west3
+    _SERVICE_IMAGE    : northamerica-northeast1-docker.pkg.dev/${PROJECT_ID}/${_DOCKER_REGISTRY}/${_DOCKER_IMAGENAME}:${SHORT_SHA}
+    _SERVICE_REGION   : northamerica-northeast1
     _SERVICE_PROJECT  : Staging	
     _SERVICE_NAME     : myfirstappst
-    _DOCKER_REGISTRY  : ci-cd-docker-ts-repo
+    _DOCKER_REGISTRY  : ci-cd-docker-ts-repo1
     _DOCKER_IMAGENAME : myapp-staging
 
 options:
