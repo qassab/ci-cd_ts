@@ -30,7 +30,7 @@ images: # Display the image in the build results - Build Artifacts
 substitutions:
     _SERVICE_IMAGE    : europe-west1-docker.pkg.dev/${PROJECT_ID}/${_DOCKER_REGISTRY}/${_DOCKER_IMAGENAME}:${SHORT_SHA}
     _SERVICE_REGION   : europe-west1
-    _SERVICE_PROJECT  : Prod
+    _SERVICE_PROJECT  : prod-426619
     _SERVICE_NAME     : myfirstapppr
     _DOCKER_REGISTRY  : ci-cd-docker-ts-repo3
     _DOCKER_IMAGENAME : myapp-prod
