@@ -34,3 +34,6 @@ substitutions:
     _SERVICE_NAME     : myfirstapppr
     _DOCKER_REGISTRY  : ci-cd-docker-ts-repo
     _DOCKER_IMAGENAME : myapp-prod
+    
+options:
+  logging: CLOUD_LOGGING_ONLY

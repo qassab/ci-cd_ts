@@ -34,3 +34,6 @@ substitutions:
     _SERVICE_NAME     : myfirstappst
     _DOCKER_REGISTRY  : ci-cd-docker-ts-repo
     _DOCKER_IMAGENAME : myapp-staging
+
+options:
+  logging: CLOUD_LOGGING_ONLY
