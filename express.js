@@ -13,7 +13,7 @@ router.use(function (req,res,next) {
 
 
 router.get('/', function(req,res){
-    res.send('Молчиш - в пезде торчиш');
+    res.send('Нарешті відмучився)))))');
 });
 
 app.use('/', router);
