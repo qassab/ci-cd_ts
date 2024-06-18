@@ -29,7 +29,7 @@ class App {
                 res.send("Login page");
             })
             this.app.get("/auth", (req, res) => {
-                res.send("Authentificationn");
+                res.send("Authentification");
             })
         } catch (error: unknown) {
             const err = error as Error;
