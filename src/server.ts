@@ -23,7 +23,7 @@ class App {
                 console.log("server is started");
             })
             this.app.get("/", (req, res) => {
-                res.send("Hello!");
+                res.send("Hello!!!");
             })
             this.app.get("/login", (req, res) => {
                 res.send("Login page");
